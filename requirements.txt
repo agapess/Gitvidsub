@@ -1,0 +1,22 @@
+# GPU Acceleration
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Whisper (Speech Recognition)
+openai-whisper>=0.0.1
+
+# Translation
+transformers>=4.30.0
+sacremoses>=0.0.53
+sentencepiece>=0.1.99
+
+# Subtitle Processing
+pysrt>=1.1.2
+
+# Video Processing
+ffmpeg-python>=0.2.0
+yt-dlp>=2023.3.4
+
+# UI
+gradio>=4.0.0
