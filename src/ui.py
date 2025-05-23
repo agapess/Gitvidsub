@@ -91,13 +91,13 @@ def create_ui(gpu_status=None):
         with gr.Accordion("Advanced Options", open=False):
             whisper_model = gr.Dropdown(
                 choices=["tiny", "base", "small", "medium", "large"], 
-                value="small" if not cuda_available else "large",
+                value="small" if not cuda_available else "medium",
                 label="Whisper Model Size"
             )
             
             translation_model = gr.Dropdown(
                 choices=list(TRANSLATION_MODELS.keys()), 
-                value="m2m100_418M", 
+                value="mt5-parsinlu-large", 
                 label="Translation Model"
             )
             
